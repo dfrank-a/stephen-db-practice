@@ -6,6 +6,8 @@ __Note: This setup script assumes you are using Ubuntu or a derivative of it!__
 
 Open terminal and execute from this directory: `sudo sh install-docker.sh`
 
+Next, execute `sudo usermod -aG docker $USER`
+
 ## Startup and shutdown
 
 To start the containers in the background, use `docker-compose up -d`
